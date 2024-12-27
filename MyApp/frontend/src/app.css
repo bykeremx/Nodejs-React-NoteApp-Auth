@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+body {
+    font-family: 'Comic Neue', cursive;
+    font-size: 24px;
+    padding: 20px;
+
+}
+
+.NoteCard {
+    padding:10px;
+    border: 3px solid black !important;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    transition: all 0.5s ease;
+}
+
+.paperclips{
+    margin-right: 10px;
+    margin-left: 5px;
+    background-color: #f37a09 !important;
+    color: white;
+    padding: 5px 10px !important;
+}
+
+.NoteCard:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    transition: all 0.5s ease;
+}
+
+.DeleteNote {
+    cursor: pointer;
+    position: relative;
+    top: -20px !important;
+    left: 27px;
+    border: 3px solid black !important;
+    transition: all 0.3s !important;
+
+}
+
+.DeleteNote:hover {
+    background-color: #ff0000 !important;
+    color: white !important;
+    transform: rotate(20deg) !important;
+    box-shadow: 1px 1px 20px black;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+
+.inputAdd{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 3px solid black !important;
+    border-radius:5px !important;
+}
+.addedButton{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 3px solid black !important;
+    border-radius:5px !important;
+    padding: 10px 20px;
+    background-color: #17afe2;
+    color: white;
+    transition: all 0.3s ease;
+}
+.addedButton:hover{
+    background-color: #0069d9;
+    color: white;
+    box-shadow: 10px 10px 0px  #016f94!important;
+    transition: all 0.3s ease;
+}
+.input_login{
+    border: 3px solid black !important;
+    padding: 10px !important;
+    border-bottom:4px solid rgb(4, 83, 136) !important;
+    box-shadow: 10px 10px 1px #0130948e !important;
+    transition: all 0.3s ease;
+}
+.btn-login{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e2175b;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    border:3px solid black !important;
+    width: 100% !important;
+    box-shadow: 10px 10px 0px #88003279 !important;
+}
+.btn-login:hover{
+    background-color: #c20044;
+    color: white;
+    box-shadow: 20px 20px 0px #88003279 !important;
+    transition: all 0.3s ease;
+}
+.input_login::placeholder{
+    color: #686868;
+    text-shadow:1px 2px 1px  rgb(199, 199, 199);
+}
+.alert_message{
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    border:0px !important;
+    box-shadow: 20px 20px 0px #88003279 !important;
+}
+.alertMessage_border {
+    padding: 10px !important;
+    border: 3px solid rgb(255, 0, 0) !important;
+    transition: all 0.2s !important;
+    box-shadow: 1px 1px 50px rgba(255, 52, 52, 0.527) !important;
+}
